@@ -1,0 +1,13 @@
+name = "icebee"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+workers_dev = true
+
+[[kv_namespaces]]
+binding = "KV"
+id = "your-kv-namespace-id"
+
+# 可选：绑定自定义域名（删除或替换为你的域名）
+# [[routes]]
+# pattern = "your-domain.example.com"
+# custom_domain = true

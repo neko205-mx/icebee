@@ -1,0 +1,19 @@
+# 编译产物
+/admin
+/node
+/node-amd64
+/node-arm64
+
+# 旧 Python 原型（已被 Go 重写替代）
+*.py
+
+# 密钥（不应入库）
+*.key
+*.pem
+
+# IDE
+.idea/
+.vscode/
+
+# wrangler 本地缓存
+.wrangler/
